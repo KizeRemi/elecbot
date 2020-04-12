@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header id="header" role="banner">
+    <div class="header__container">
+      <div class="header__section">
+        <button id="btn-open-nav" class="header__btn"><i class="fas fa-bars header__picto"></i></button>
+        <img class="header__img" src="images/engie.svg" alt="Logo engie">
+      </div>
+      <div class="header__section section__picto">
+        <a href="#" class="header__picto"><i class="far fa-comment"></i></a>
+        <a href="#" class="header__picto"><i class="far fa-user"></i></a>
+      </div>
+    </div>
+    <ul class="quick__nav desktop">
+      <li id="first" class="quick__nav__item current__nav">
+      </li>
+      <li class="quick__nav__item">
+      </li>
+      <li class="quick__nav__item">
+      </li>
+      <li class="quick__nav__item">
+      </li>
+      <li class="quick__nav__item">
+      </li>
+      <li class="quick__nav__item">
+      </li>
+      <li class="quick__nav__item">
+      </li>
+    </ul>
+    <nav id="nav-engie" role="navigation">
+      <ul>
+        <li class="nav__item">
+          <span>Déménagement</span>
+          <i class="fas fa-plus nav__picto"></i>
+        </li>
+        <li class="nav__item">
+          <span>Nos offres éléctricité et gaz</span>
+          <i class="fas fa-plus nav__picto"></i>
+        </li>
+        <li class="nav__item">
+          <span>Dépannages et services</span>
+          <i class="fas fa-plus nav__picto"></i>
+        </li>
+        <li class="nav__item">
+          <span>Economies d'énergie</span>
+          <i class="fas fa-plus nav__picto"></i>
+        </li>
+        <li class="nav__item">
+          <span>Changer pour Engie</span>
+        </li>
+      </ul>
+      <div class="search__container" role="search">
+        <input type="text" placeholder="Rechercher par mots-clés" id="search__input" name="search">
+        <i class="fas fa-search search__picto" ></i>
+      </li>
+    </nav>
+  </header>
+  <img class="header__desktop" src="images/header-desktop.png">
+  <main role="main">
+    <!-- RESUME 1 -->
+    <section>
+      <h1>Nos offres voitures éléctriques</h1>
+      <p>Vous souhaitez acquérir une voiture électrique ou vous avez déjà passé le cap?<br> Réaliser des économies grâce à nos offres.</p>
+      <div class="buttons__container">
+        <button type="button" class="default-btn btn">Estimer mes économies</button>
+        <button type="button" class="dark-btn btn hidden-btn">Faire une demande</button>
+      </div>
+    </section>
+    <!-- OFFRE 2 -->
+    <section>
+      <h2>Offre Elec'car</h2>
+      <h3>Pourquoi Engie?</h3>
+      <img class="logo__img mobile" src="images/logo-eleccar.png" alt="Logo Elec'Car" title="Logo Elec'Car">
+      <div class="section__content__container">
+        <p class="hidden-text">
+          Avec l'offre Elec'Car, rechargez votre voiture la nuit et profitez d'une réduction de -50% par Kwh pendant les heures creuses !
+          <br><br>
+          <img class="logo__img desktop" src="images/logo-eleccar.png" alt="Logo Elec'Car" title="Logo Elec'Car">
+        </p>
+        <div class="slider__container">
+          <div class="slider__item">
+            <img class="steps__img" src="images/nuit.svg" alt="Logo électricité de nuit" title="Logo électricité de nuit">
+            <p><span class="big__item">-50%</span><br> sur l'éléctricité de nuit</p>
+          </div>
+          <div class="slider__item">
+            <img class="steps__img" src="images/sansengagement.svg" alt="Logo sans engagement" title="Logo sans engagement">
+            <p><span class="big__item">Sans<br> engagement</span></p>
+          </div>
+          <div class="slider__item">
+            <img class="steps__img" src="images/energieverte.svg" alt="Logo énergie verte" title="Logo énergie verte">
+            <p><span class="big__item">Electricité<br>verte</span></p>
+          </div>
+          <div class="slider__item">
+            <img class="steps__img" src="images/souscriptionenligne.svg" alt="Logo souscription en ligne" title="Logo souscription en ligne">
+            <p>Souscription<br><span class="big__item">en ligne</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ELECTRICITE VERTE 3 -->
+    <section>
+      <h2>La garantie d'une électricité verte.</h2>
+      <img class="greenelec__img hidden-img" src="images/green_elec.png" alt="image électricité verte" title="Electricité verte" />
+      <p>
+        Sachez que choisir une offre d'électricité d'ENGIE, c'est opter de l'électricité verte !<sup>(1)</sup> Une électricité
+        d'origin hydraulique, éolienne et solaire, certifiée par des Garanties d'Origine.
+      </p>
+      <button type="button" class="default-btn btn">Estimer mes économies</button>
+    </section>
+    <!-- SOUSCRIPTION 4 -->
+    <section>
+      <h2>Comment souscrire à l'offre?</h2>
+      <div>
+        <img class="elec__bot__img" src="images/elec-bot.png" alt="Elec'Bot Image" title="Elec'Bot Image">
+        <p>
+          Elec'Bot vous guidera dans les différentes étapes de la souscription pour vous faciliter la tâche.
+          N'hésitez pas à lui poser des questions ! Il vous dit tout !
+        </p>
+      </div>
+    </section>
+    <!-- OFFRE 5 -->
+    <section>
+      <h2>Offre Elec'Charge</h2>
+      <h3>Quels avantages?</h3>
+      <img class="logo__img mobile" src="images/logo-eleccharge.png" alt="Logo Elec'Charge" title="Logo Elec'Charge">
+      <div class="section__content__container">
+        <p class="hidden-text">
+          Avec l'offre Elec'Car, rechargez votre voiture la nuit et profitez d'une réduction de -50% par Kwh pendant les heures creuses !
+          <br><br>
+          <img class="logo__img desktop" src="images/logo-eleccharge.png" alt="Logo Elec'Charge" title="Logo Elec'Charge">
+        </p>
+        <div class="slider__container">
+          <div class="slider__item">
+            <img class="steps__img" src="images/3foisplusvite.svg" alt="Logo 3 fois plus vite" title="Logo 3 fois plus vite">
+            <p><span class="big__item">3 fois</span><br> plus rapide qu'une recharge normale</p>
+          </div>
+          <div class="slider__item">
+            <img class="steps__img" src="images/impots.svg" alt="Logo impôts" title="Logo impôts">
+            <p><span class="big__item">crédit d'impôt</span> de 30% possible</p>
+          </div>
+          <div class="slider__item">
+            <img class="steps__img" src="images/normeeuropeenne.svg" alt="Logo norme européen" title="Logo norme européen">
+            <p><span class="big__item">Un matériel certifié</span> CE</p>
+          </div>
+          <div class="slider__item">
+            <img class="steps__img" src="images/prix.svg" alt="Logo prix" title="Logo prix">
+            <p>A partir de <span class="big__item">999€</span></p>
+          </div>
+        </div>
+      <div>
+    </section>
+    <!-- INSTALLATION 6 -->
+    <section>
+      <h2>Qui peut bénéficier de l'offre Elec'Charge ?</h2>
+      <ul class="steps__list">
+        <li class="steps__item">
+          <img class="steps__img" src="images/steps_img01.png" alt="Etape 1" title="Etape 1">
+          <p class="steps__text">
+            Vous habitez une <span class="bold__text">maison individuelle?</span>
+          </p>
+        </li>
+        <li class="steps__item">
+          <img class="steps__img" src="images/borne.png" alt="Etape 2" title="Etape 2">
+          <p class="steps__text">
+            Vous bénéficiez d'une <span class="bold__text">zone privative</span>
+            pour l'installation de la borne?
+          </p>
+        </li>
+        <li class="steps__item">
+          <img class="steps__img" src="images/steps_img02.png" alt="Etape 3" title="Etape 3">
+          <p class="steps__text">
+            Vous êtes le <span class="bold__text">propriétaire</span>?
+            Ou locataire mais vous avez l'accord de votre propriétaire?
+          </p>
+        </li>
+      </ul>
+    </section>
+    <!-- BORNE 7 -->
+    <section>
+      <h2>La borne Elec'charge: un matériel européen</h2>
+      <img class="description__img" src="images/borne.png" alt="Image borne Elec'Charge" title="Image borne Elec'Charge">
+      <ul class="description__list">
+        <li>La borne est <span class="bold__text">adaptée à toutes les voitures électriques et hybrides</span> vendues en France.</li>
+        <li>Une <span class="bold__text">garantie de 2 ans</span> pièce et main d'oeuvre</li>
+        <li>Une <span class="bold__text">puissance adaptée</span> aux besoin (entre 3,7 kW et 7,4 kW)</li>
+        <li>Une borne <span class="bold__text">résistance aux chocs, étanche et inflammable</span>, fixée au mur ou montée sur pieds (en option)</li>
+        <li>Un <span class="bold__text">anneau led</span> donnant une vision claire de l'état de la recharge</li>
+      </ul>
+    </section>
+    <!-- BORNE 8 -->
+    <section>
+      <h2>Elec'Charge,<br> c'est aussi :</h2>
+      <div class="more__offer__container">
+        <div>
+          <p>Une <span class="bold__text">installation par des professionnels</span> qui vous accompagnent sur la prise en charge du matériel</p>
+          <img src="images/tools.png" alt="Image outils" title="Image outils">
+        </div>
+        <div>
+          <p>
+            Une <span class="bold__text">première visite gratuite</span>, où un professionnel se déplace chez vous pour une vérification de la
+            compatibilité de cette offre avec votre installation électrique.
+          </p>
+          <img class="pro__img" src="images/pro.png" alt="Image pro" title="Image pro">
+        </div>
+        <div>
+          <img class="calendar__img" src="images/calendar.png" alt="Image calendrier" title="Image Calendrier">
+          <p>Un <span class="bold__text">engagement de mise en place</span> sous un délai de 1 mois après la signature du devis.</p>
+        </div>
+      </div>
+    </section>
+    <!-- SOUSCRIPTION 9 -->
+    <section>
+      <h2>Comment installer ma borne?</h2>
+      <div>
+        <img class="elec__bot__img" src="images/elec-bot.png" alt="Elec'Bot Image" title="Elec'Bot Image">
+        <p>
+          Elec'Bot vous guidera dans les différentes étapes de la souscription pour vous faciliter la tâche.
+          N'hésitez pas à lui poser des questions ! Il vous dit tout !
+        </p>
+      </div>
+    </section>
+    <!-- TEMOIGNAGES 10 -->
+    <section class="temoin_container">
+      <img class="temoin__img" src="images/george.png" alt="Image de George" title="Image de George">
+      <p class="quote__temoin">
+        « Très belle offre, je fais de belles économies tous les mois en profitant
+        des heures creuses pour recharger ma voiture. »
+      </p>
+      <p class="author__temoin">George, client Elec'Car</p>
+    </section>
+    <!-- ACTU 11 -->
+    <section>
+      <h2>Les actualités</h2>
+      <div class="actus__container">
+        <article itemscope="itemscope" itemtype="http://schema.org/Article">
+          <img src="images/actu1.jpg" alt="Image actualités" title="Image actualités">
+          <h4>Voiture électrique</h4>
+          <p itemprop="headline">Comment recharger ma voiture electrique?</p>
+        </article>
+        <article itemscope="itemscope" itemtype="http://schema.org/Article">
+          <img src="images/actu2.jpg" alt="Image actualités" title="Image actualités">
+          <h4>Economie energie</h4>
+          <p itemprop="headline">L'autoconsommation énergétique, la nouvelle façon de consommer qui séduit les Français</p>
+        </article>
+        <article itemscope="itemscope" itemtype="http://schema.org/Article">
+          <img src="images/actu3.jpg" alt="Image actualités" title="Image actualités">
+          <h4>Voiture électrique</h4>
+          <p itemprop="headline">Voiture électrique: votre batterie en 3 points clés</p>
+        </article>
+      </div>
+      <div class="more__container">
+        <a href="#">Plus d'actualités</a>
+      </div>
+    </section>
+    <!-- ACTU 12 -->
+    <section>
+      <h2>Suivez toutes les<br> actualités ENGIE</h2>
+      <div>
+        <input type="text" placeholder="Votre adresse mail" id="search__input" name="follow">
+        <button type="button" class="dark-btn btn">Ok</button>
+      </div>
+    </section>
+    <img class="footer__img" src="images/footer.png">
+    <img class="footer__img mobile" src="images/footer-mobile.png">
+    <img class="footer__img mobile" src="images/footer-mobile2.png">
+  </main>
+  <div class="choosen__btn__container">
+    <img class="elec__bot__img" src="images/elec-bot.png" alt="Elec'Bot Image" title="Elec'Bot Image">
+    <p>Je suis Elec'Bot, le chatbot de la situation !</p>
+    <button type="button" class="dark-btn btn">Faire une demande</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+</html>
